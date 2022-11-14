@@ -50,7 +50,7 @@ const Navbar = () => {
           GIDADO
         </Typography>
         <Pets sx={{ display: { xs: "block", sm: "none" } }} />
-        <Search><InputBase placeholder='Search....'></InputBase></Search>
+        <Search bgcolor={"background.default"} color={"text.primary"} ><InputBase placeholder='Search....'></InputBase></Search>
         <Icons>
           <Badge badgeContent={4} color="error">
             <Mail />
@@ -85,7 +85,7 @@ const Navbar = () => {
         aria-labelledby="demo-positioned-button"
         
         open={open}
-        onClose={e=>setOpen(false)} 
+        onClose={e=>setOpen(false)}
         anchorOrigin={{
           vertical: 'top',
           horizontal: 'right',
